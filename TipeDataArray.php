@@ -4,3 +4,17 @@
 
   $names = ["Eko", "Kurniawan", "Khannedy"];
   var_dump($names);
+
+  var_dump($names[0]);
+
+  $names[0] = "Budi";
+
+  var_dump($names);
+
+  unset($names[1]);
+
+  $names[] = "Joko";
+
+  var_dump($names);
+
+  var_dump(count($names));
