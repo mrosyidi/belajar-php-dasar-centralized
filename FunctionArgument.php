@@ -1,8 +1,9 @@
 <?php
-  function sayHello($name = "Anonymous"){
-    echo "Hello $name" . PHP_EOL;
+  function sayHello($firstName, $lastName = "")
+  {
+    echo "Hello $firstName $lastName" . PHP_EOL;
   }
 
-  sayHello();
   sayHello("Eko");
-  sayHello();
+  sayHello("Budi");
+  sayHello("Eko", "Kurniawan");
